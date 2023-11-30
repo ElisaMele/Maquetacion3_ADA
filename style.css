@@ -1,0 +1,181 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background: rgb(134, 176, 171);
+    background: linear-gradient(180deg, 
+                rgba(134, 176, 171, 1) 0%, 
+                rgba(143, 184, 182, 1) 35%, 
+                rgba(172, 205, 200, 1) 100%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.logo {
+    order: -1;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.fa-user {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.btn-contacto {
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: #c3dfdc;
+    color: #202e30;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 50px;
+}
+
+.container-text {
+    margin-left: 60px;
+    margin-right: 50px;
+    
+}
+
+.container-video {
+    position: relative;
+    margin-right: 15px;
+}
+
+span {
+    display: flex;
+    line-height: .50;
+    margin-left: 162px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1, .text {
+    color: white;
+}
+
+#video {
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.web {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    transform: translate(20%, -40%);
+}
+
+.btn-video {
+    position: absolute;
+    top: 82%;
+    left: 88%;
+    border: none;
+    background-color: rgb(109, 135, 134, 0.4);
+    border-radius: 50px;
+    padding: 10px 15px;
+    width: 50px;
+}
+
+.btn-ejemplos {
+    border: none;
+    padding: 15px 45px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #c2dedb;
+    color: #202e30;
+    cursor: pointer;
+}
+
+.btn-hablanos {
+    border: none;
+    padding: 15px 45px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #202e30;
+    color: #c2dedb;
+    cursor: pointer;
+}
+
+.container-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.button {
+    width: 500px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    width: 100px;
+    height: auto;
+    border-radius: 50px 0 0 50px;
+    left: 0;
+}
+
+.texto {
+    flex: 2;
+    padding: 10px;
+}
+
+.price{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px 6px;
+    margin-left: 5px;
+}
+

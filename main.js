@@ -1,0 +1,4 @@
+const inicioVideo=()=>{
+    video.play();
+}
+
