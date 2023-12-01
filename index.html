@@ -14,7 +14,7 @@
 
 <body>
 
-    <header>
+    <header id="navbar">
         <nav class="nav-list">
             <ul>
                 <li><a href="">Información <i class="fa-sharp fa-solid fa-angle-right fa-rotate-90 fa-2xs"></i></a></li>
@@ -35,7 +35,7 @@
     <section>
         <div class="container">
             <div class="container-text">
-                <h1>¿Te gusta <span>gustar?</span></h1>
+                <h1>¿Te gusta <span class="space">gustar?</span></h1>
                 <p class="text bold">DISEÑO DE PÁGINAS WEB Y TIENDAS ONLINE</p>
                 <p class="text">Si tu web actual hace que <b>tus productos parezcan una</b> 💩, te la renovamos para que
                     <b>demuestres lo que vales online</b>, estés orgulloso y tengas el control de tu web.
@@ -46,12 +46,12 @@
 
 
             <div class="container-video">
-                <video id="video" >
+                <video id="video">
                     <source src="images/video.mp4" type="video/mp4">
                 </video>
                 <img class="web" src="images/websmuypepinas.png" alt="websmuypepinas">
                 <button class="btn-video" onclick="inicioVideo()">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#ffffff">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#ffffff">
                         <path d="M3 22v-20l18 10-18 10z" />
                     </svg>
                 </button>
@@ -63,24 +63,28 @@
 
     <section>
         <div class="container-button">
-        <div class="button">
-            <img class="imagen" src="images/pepino.png" alt="pepino">
-            <div class="texto">
-                <p>PÁGINA WEB<sup class="price">690€</sup></p>
-                <p>Diseñamos 6 apartados, 1 idioma, Autogestionable, Click para mas info.</p>
-                <i class="fa-solid fa-arrow-right"></i>
+            <div class="button">
+                <img class="imagen" src="images/pepino.png" alt="pepino">
+                <div class="texto">
+                    <p><span class="button-text">PÁGINA WEB</span><sup class="price">690€</sup></p>
+                    <p>Diseñamos 6 apartados, 1 idioma, Autogestionable. Click para mas info.</p>
+                </div>
+                <div class="arrow">
+                    <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
+                </div>
             </div>
-        </div>
 
-        <div class="button">
-            <img class="imagen" src="images/pera.png" alt="pera">
-            <div class="texto">
-                <p>TIENDA ONLINE<sup class="price">990€</sup></p>
-                <p>Todo incluido en el plan web más pasarela, productos, transportistas...</p>
-                <i class="fa-solid fa-arrow-right"></i>
+            <div class="button">
+                <img class="imagen" src="images/pera.png" alt="pera">
+                <div class="texto">
+                    <p><span class="button-text">TIENDA ONLINE</span><sup class="price">990€</sup></p>
+                    <p>Todo incluido en el plan web más pasarela, productos, transportistas...</p>
+
+                </div>
+                <div class="arrow">
+                    <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
+                </div>
             </div>
-        </div>
-
         </div>
 
 
